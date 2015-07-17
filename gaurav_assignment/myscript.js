@@ -19,14 +19,11 @@ var fn1,ln1,pass1,email1,con1,gen1,country1,tech1,addr1;
 
 
 	var s=checkblank(fn1,ln1,pass1,email1,con1,addr1);
+
      if(s.value==0)
      {
 
-
-	 }
-	 else
-	 {
-
+        
  //validation for firstname
 
 			if(fn1.value.length>=15 || fn1.value.length<=2 )
@@ -129,6 +126,10 @@ var fn1,ln1,pass1,email1,con1,gen1,country1,tech1,addr1;
 
 
 		 changesize();
+	 }
+	 else
+	 {
+       changesize();
 	 }
 
 }
